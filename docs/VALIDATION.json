@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-16",
+  "offline_tests": {
+    "status": "PASS",
+    "count": 4
+  },
+  "upstream_byte_verification": {
+    "status": "PASS",
+    "files": 17,
+    "commit": "972f7cd7c95381134387b250edf18f3bd23bdd25"
+  },
+  "e2b_eda_smoke": {
+    "status": "PASS",
+    "template_id": "epwak9ve48ho1nu75llo",
+    "bridge": true,
+    "oa_saved": true,
+    "native_export": true,
+    "native_sha256": "9d7f081d14f4b6f7ac21366688906d9eabdc9310d4871270e22f8daea5831930",
+    "spectre": true,
+    "divider_V": 0.5,
+    "sandbox_destroyed": true,
+    "spectre_version_observed": "sub-version  25.1.0.367.isr9"
+  },
+  "adb_official_grader": {
+    "status": "NOT_EXECUTED",
+    "reason": "Local Docker daemon not running",
+    "task_score": null
+  },
+  "model_evaluation": {
+    "executed": false
+  },
+  "integration_source_sha256": {
+    "scripts/guest_smoke.py": "c2f86db5c0dc4c8a6601b962e0b68787f6d9df7c80f9315a37a46e042d69cb0c",
+    "scripts/launch_e2b.py": "c0494b524821bbc054cb140da8facb29467bd9f84dadebca8de5806f79c3ab5f",
+    "scripts/run_adb.py": "41c7bbc643e1af195c49b28919894c5e4547f6126bf6972ba2dc0d1b0056862a",
+    "scripts/build_template.py": "732fd5810e050c2103089a2c53a54dabcfb016dd21a91ba6d124a0dca25d48b6",
+    "scripts/verify_bundle.py": "b21f9a09582c7017b82a6468d372b22e50d65b7115a6bf913eb6230dcbc0e03f"
+  }
+}

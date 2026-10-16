@@ -1,0 +1,21 @@
+{
+  "template_id": "epwak9ve48ho1nu75llo",
+  "template_alias": "industrial-virtuoso-spectre-v1",
+  "visibility": "private E2B template; GitHub visibility does not grant template access",
+  "architecture": "x86_64",
+  "os": "Rocky Linux 9.8",
+  "virtuoso": "IC251",
+  "spectre": "25.1.0.367.isr9",
+  "cadence_runtime": {
+    "format": "SquashFS",
+    "bytes": 17368326144,
+    "sha256": "b43d8da05d661bd5431b09db17382b9cb77a55b806740008f7919ebe02e09dbd"
+  },
+  "bootstrap": "/opt/eda-bootstrap.sh",
+  "guest_root": "/opt/rocky",
+  "license_path_in_guest": "/run/secrets/cadence.lic",
+  "licensed_software_in_git": false,
+  "license_in_git": false,
+  "pdk_in_git": false,
+  "scope": "Environment metadata and reusable launch/build source; no redistributable Cadence installation"
+}

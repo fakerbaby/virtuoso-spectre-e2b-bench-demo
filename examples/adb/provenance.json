@@ -1,0 +1,36 @@
+{
+  "task_id": "sky130-ota-5t-gain40-pm60-noise50uv-pvt",
+  "website": "https://analog-design-bench.tokenzhang.com/task/v2/sky130-ota-5t-gain40-pm60-noise50uv-pvt",
+  "repository": "https://github.com/Arcadia-1/analog-design-bench",
+  "commit": "972f7cd7c95381134387b250edf18f3bd23bdd25",
+  "included": [
+    "instruction.md",
+    "task.toml",
+    "environment/",
+    "tests/"
+  ],
+  "reference_solution_included": false,
+  "reference_results_included": false,
+  "software_license": "Apache-2.0",
+  "benchmark_content_license": "CC-BY-NC-4.0",
+  "modifications": "Selected task files copied byte-for-byte; upstream path changed only by packaging location",
+  "files": {
+    "environment/Dockerfile": "1455c1a7c6a6a7bc92c69ec9522854f107f269ca24d449d49987bf042f331be2",
+    "environment/starter/SKY130_NETLIST_GUIDE.md": "071712f4973589c125e169f7053500bd204aee25b5c77ba1bbce636ef9487d73",
+    "environment/starter/circuit.spi": "e567f776812d0d98075a5543af6095d78923e7fb522a3b565b6f52a3336aaef8",
+    "environment/starter/testbench/tb_cmrr_tt_1p80v_125c.spi": "9d416b35165637ffca39d8e21f90d154b31bc89864758d345a60e2865ff4d115",
+    "environment/starter/testbench/tb_op_ac_noise_ff_1p80v_125c.spi": "be93ce54c8e25f2c39e60b375467f678ac71ee8de9473d2c1828d261e2e2d4f7",
+    "environment/starter/testbench/tb_psrr_minus_ff_1p62v_m40c.spi": "4417b7142ec891da9079fdb04466168853b7c3aad9515d8d66a81da9bb308175",
+    "environment/starter/testbench/tb_psrr_plus_ss_1p80v_27c.spi": "3b9f0e032c5509e0d869346bf4d8ceface632d5059de1531afd5f937fb8a36a2",
+    "instruction.md": "365e6c5979db9aaff71ab926d452592aec6ca7d78d875b78ae7ce5816996354e",
+    "task.toml": "93c5d2a8c621da16aea222ed586c5abb38a1ac3b1b9184ef2b3c990f8dcbd516",
+    "tests/Dockerfile": "748e0e0ebe3bad06cc73a1d1a46cfd29adf51b24d92709015ba713f3621a8536",
+    "tests/benches/tb_cmrr.spi": "f4195b38b0b979405b083db62fadf5428f7951c2001bae00a87cd24b633fc4be",
+    "tests/benches/tb_op_ac_noise.spi": "6e2f7bfa2fd6418da8dd69c90c2c8ce533c7d020f44ee3935983d7aeda7e31e7",
+    "tests/benches/tb_psrr_minus.spi": "a5f159e021add86e899e362223ff7ff8a8051e021f4ee706d6112131d15de62b",
+    "tests/benches/tb_psrr_plus.spi": "8c8646a8b2b51d545152532038d4328c4efe61242edba42f358db77f3a4150db",
+    "tests/test.sh": "e63c5833b165691320769ed25e83558d6d82cc280d06d46621f943158addbbe6",
+    "tests/utils.py": "8f9909aa283429e11d3d5b55b33d5e55d5c54f4bad33aaa599f1c8a35a99e299",
+    "tests/verify.py": "04905dd2649e600842260bf61108d38a94f1bd351b0f490cfcf84ff7f0c4ba39"
+  }
+}

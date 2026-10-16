@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Analog Design Bench",
+    "url": "https://github.com/Arcadia-1/analog-design-bench",
+    "commit": "972f7cd7c95381134387b250edf18f3bd23bdd25",
+    "role": "Official SKY130/ngspice task, development benches and verifier"
+  },
+  {
+    "name": "Virtuoso Bridge Lite",
+    "url": "https://github.com/Arcadia-1/virtuoso-bridge-lite",
+    "upstream_head_at_packaging": "acb3bf4a33aa0f5e3b0eac9f076b3d2823cd898b",
+    "role": "Related bridge source; installed template revision not independently identified by this upstream HEAD"
+  },
+  {
+    "name": "E2B Python SDK",
+    "url": "https://github.com/e2b-dev/E2B",
+    "python_version": "2.15.0",
+    "role": "Sandbox and template lifecycle"
+  }
+]

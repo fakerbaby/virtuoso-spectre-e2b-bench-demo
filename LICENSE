@@ -1,0 +1,10 @@
+Original integration scripts in scripts/ and tests/: Apache License 2.0.
+See licenses/Apache-2.0.txt for the full license text.
+
+The selected Analog Design Bench files in examples/adb/ retain their upstream
+licenses. Software is Apache-2.0; benchmark content including instructions,
+manifests and SPICE assets is CC BY-NC 4.0. See licenses/ADB-LICENSE-NOTICE.txt
+and licenses/CC-BY-NC-4.0.txt. Packaging does not change those licenses.
+
+Third-party EDA software, E2B services, PDKs and tools retain their own terms.
+No Cadence software, license credentials or PDK package is distributed here.
